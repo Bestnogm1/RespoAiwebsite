@@ -1,12 +1,11 @@
 import "./App.css";
 import respoImg from "./respoAi.png";
 import chromeimg from "./chromeImg2_prev_ui.png";
-import cloudVidoe from "./cloudvideo.mp4";
+
 function App() {
   return (
     <div className="App">
       <img src={respoImg} />
-      {/* <header className="respoTitle"> RespoAI </header> */}
 
       <div className="Information">
         <h3></h3>
@@ -27,7 +26,7 @@ function App() {
       </div>
       <div>
         <a href="https://chrome.google.com/webstore/detail/respoai/bedkffdgfejokiohjhkehankmamachma?hl=en&authuser=0">
-          <button className="submitButton">Tutorial Library</button>
+          <button className="submitButton">Try Here</button>
         </a>
       </div>
     </div>
