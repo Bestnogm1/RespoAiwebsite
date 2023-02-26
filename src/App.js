@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import respoImg from "./respoAi.png";
+import chromeimg from "./chromeImg2_prev_ui.png";
+import cloudVidoe from "./cloudvideo.mp4";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <img src={respoImg} />
+      {/* <header className="respoTitle"> RespoAI </header> */}
+
+      <div className="Information">
+        <h3></h3>
+      </div>
+      <div className="progress"></div>
+      <div className="chromeLink">
+        <h1>WEBSITE COMING SOON</h1>
+      </div>
+      <div className="moreInfo">
+        <div className="">
+          <a
+            link
+            href="https://chrome.google.com/webstore/detail/respoai/bedkffdgfejokiohjhkehankmamachma?hl=en&authuser=0"
+          >
+            <img src={chromeimg} />
+          </a>
+        </div>
+      </div>
+      <div>
+        <a href="https://chrome.google.com/webstore/detail/respoai/bedkffdgfejokiohjhkehankmamachma?hl=en&authuser=0">
+          <button className="submitButton">Tutorial Library</button>
         </a>
-      </header>
+      </div>
     </div>
   );
 }
