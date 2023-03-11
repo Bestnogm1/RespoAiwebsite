@@ -1,0 +1,53 @@
+.RespoReviews {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 5rem;
+}
+
+.RespoReview {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  height: 15rem;
+
+  flex-direction: column;
+
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.RespoReviewsImg > img {
+  width: 5rem;
+  height: auto;
+}
+
+.RespoReviewsImgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.RespoReviewsText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Neue Montreal;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.RespoReviewsText > p {
+  width: 16rem;
+}
+
+.RespoReviewsNameAndStar > h3 {
+  margin: 0;
+  font-family: Neue Montreal;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}

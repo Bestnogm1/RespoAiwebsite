@@ -55,3 +55,57 @@
   gap: 30px;
   font-size: 0.6rem;
 }
+
+.ReposUnderReferencesTextImg {
+  display: flex;
+  align-items: center;
+}
+.ReposUnderReferencesHeaderText > header {
+  font-family: Neue Montreal;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.ReposUnderReferencesHeaderText > h1 {
+  font-family: Neue Montreal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.ReposUnderReferencesButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ReposUnderReferencesButtonContainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid #27b1ff;
+  gap: 20px;
+  flex-direction: row;
+  width: 207px;
+  height: 50px;
+  font-size: 1rem;
+  justify-content: center;
+  border-radius: 12px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.ReposUnderReferencesButton > img {
+  width: 1.5rem;
+  flex-direction: column;
+}
+
+.ReposUnderReferencesButtonContainer:hover {
+  background-color: #27b0fff2;
+  cursor: pointer;
+}

@@ -1,6 +1,5 @@
 .svgLogo {
   display: flex;
-
   width: 4rem;
 }
 .RespoBubbleSvg {
@@ -29,6 +28,11 @@
   /* don't delete */
   display: flex;
   align-items: center;
-
+  flex-direction: column;
   gap: 10px;
+}
+.RespoLogoSvgContainer {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
 }

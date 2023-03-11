@@ -22,8 +22,8 @@ function App() {
         <RespoBanner />
         <RespoReviews />
         <RespoAiQuestions />
-        <RespoFooter />
       </div>
+      <RespoFooter />
     </div>
   );
 }

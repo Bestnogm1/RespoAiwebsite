@@ -3,7 +3,7 @@ import React from "react";
 function RespoReddit(props) {
   return (
     <svg
-      width="1361"
+      width="761"
       height="583"
       viewBox="0 0 1361 583"
       fill="none"
