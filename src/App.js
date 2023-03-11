@@ -1,33 +1,28 @@
 import "./App.css";
-import respoImg from "./respoAi.png";
-import chromeimg from "./chromeImg2_prev_ui.png";
+import RespoNavBar from "./RespoNavBar/RespoNavBar";
+import RespoBodyTop from "./RespoBodyTop/RespoBodyTop";
+import RespoVideo from "./RespoVideo/RespoVideo";
+import RespoRefrences from "./RespoRefrences/RespoRefrences";
+import ReposUnderReferences from "./ReposUnderReferences/ReposUnderReferences";
+import RespoBanner from "./RespoBanner/RespoBanner";
+import RespoReviews from "./RespoReviews/RespoReviews";
+import RespoAiQuestions from "./RespoAiQuestions/RespoAiQuestions";
+import RespoFooter from "./RespoFooter/RespoFooter";
 
 function App() {
   return (
     <div className="App">
-      <img src={respoImg} />
+      <div className="AppContainer">
+        <RespoNavBar />
+        <RespoBodyTop />
+        <RespoVideo />
+        <RespoRefrences />
+        <ReposUnderReferences />
 
-      <div className="Information">
-        <h3></h3>
-      </div>
-      <div className="progress"></div>
-      <div className="chromeLink">
-        <h1>WEBSITE COMING SOON</h1>
-      </div>
-      <div className="moreInfo">
-        <div className="">
-          <a
-            link
-            href="https://chrome.google.com/webstore/detail/respoai/bedkffdgfejokiohjhkehankmamachma?hl=en&authuser=0"
-          >
-            <img src={chromeimg} />
-          </a>
-        </div>
-      </div>
-      <div>
-        <a href="https://chrome.google.com/webstore/detail/respoai/bedkffdgfejokiohjhkehankmamachma?hl=en&authuser=0">
-          <button className="submitButton">Try Here</button>
-        </a>
+        <RespoBanner />
+        <RespoReviews />
+        <RespoAiQuestions />
+        <RespoFooter />
       </div>
     </div>
   );

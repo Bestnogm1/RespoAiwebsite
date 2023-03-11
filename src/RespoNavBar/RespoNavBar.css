@@ -1,0 +1,71 @@
+.RespoNavBarMain {
+  display: flex;
+  height: 90px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 53px;
+  margin-top: 2rem;
+  justify-content: space-between;
+
+  width: 80rem;
+  max-width: 100%;
+}
+
+.RespoNavLogo {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid black; */
+  justify-content: flex-start;
+}
+
+.RespoNavBarPages {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.RespoNavBarPages > ul {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+
+  /* justify-content: space-around; */
+  list-style-type: none;
+}
+.RespoNavBarPages > ul > li {
+  font-size: 20px;
+}
+.RespoNavBarPages > ul > div > img {
+  width: 1.5rem;
+  flex-direction: column;
+}
+
+.RespoNavBarPages > ul > div {
+  align-items: center;
+  border: 1px solid #27b1ff;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  width: 207px;
+  height: 50px;
+  font-size: 1rem;
+  justify-content: center;
+  border-radius: 12px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.RespoNavBarPages > ul > div:hover {
+  background-color: #27b0fff2;
+  cursor: pointer;
+}

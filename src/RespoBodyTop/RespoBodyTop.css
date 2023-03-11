@@ -1,0 +1,136 @@
+.RespoBodyTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+.RespoBodyTopHeader {
+  font-family: Neue Montreal;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.RespoBodyTopBody {
+  width: 82rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Neue Montreal;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.RespoBodyTopBody > span {
+  display: flex;
+  justify-content: center;
+}
+.RespoBodyTopBody > .RespoBodyTopBody {
+  display: flex;
+  justify-content: center;
+}
+
+.RespoBodyTopBodyButton {
+  display: flex;
+  justify-content: center;
+}
+
+.RespoBodyTopBodyButton {
+  align-items: center;
+  border: 1px solid #27b1ff;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  width: 207px;
+  height: 50px;
+  font-size: 1rem;
+  justify-content: center;
+  border-radius: 12px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.RespoBodyTopBodyButton > img {
+  width: 1.5rem;
+  flex-direction: column;
+}
+
+.RespoBodyTopBodyButton:hover {
+  background-color: #27b0fff2;
+  cursor: pointer;
+}
+
+.RespoBodyTopDescriptionImg {
+  display: flex;
+  align-items: center;
+  padding-top: 5rem;
+  justify-content: space-evenly;
+}
+
+.RespoBodyTopBodyButtonContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+.RespoBodyTopDescription {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 20rem;
+  width: 30rem;
+  font-family: Neue Montreal;
+  font-size: 10px;
+  line-height: 25px;
+}
+
+.RespoBodyTopDescriptionHeader {
+  font-family: Neue Montreal;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.RespoBodyTopDescriptionButton {
+  padding-top: 2rem;
+  width: 100%;
+}
+.RespoBodyTopDescriptionButton > button {
+  width: 13rem;
+  height: 3rem;
+  border-radius: 30px;
+  background: linear-gradient(#000000, #000000) padding-box,
+    linear-gradient(60deg, #27b1ff, #27b1ff9c, #9d75f2, #00b994) border-box;
+  color: #ffffff;
+  border: 5px solid transparent;
+  border-radius: 40px;
+  display: inline-block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.RespoBodyTopImg {
+  display: flex;
+  align-items: center;
+  width: 45%;
+}
+
+.RespoBodyTopImg > img {
+  width: 100%;
+  height: auto;
+}

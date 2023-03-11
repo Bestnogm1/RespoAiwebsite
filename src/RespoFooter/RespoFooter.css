@@ -1,0 +1,10 @@
+.RespoFooter {
+  border: 1px solid #20282c;
+  height: 30rem;
+  background-color: #20282c;
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+.RespoFooterLogo {
+  display: flex;
+}

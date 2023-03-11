@@ -1,0 +1,64 @@
+.RespoBanner {
+  background-image: url("../img/respoAIbanner.png");
+  width: 100%;
+  height: 19rem;
+  background-repeat: repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.RespoBannerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+
+  align-items: center;
+}
+.RespoBannerTextTitle {
+  font-family: "Source Serif Pro";
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 75px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.RespoBannerTextParagraph {
+  width: 517px;
+  height: 72px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+.RespoBannerChromeImg {
+  align-items: center;
+  border: 1px solid #27b1ff;
+  background-color: white;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  width: 207px;
+  height: 50px;
+  font-size: 1rem;
+  justify-content: center;
+  border-radius: 12px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+.RespoBannerChromeImg > img {
+  width: 1.5rem;
+  flex-direction: column;
+}
+.RespoBannerChromeImg:hover {
+  background-color: #27b0fff2;
+  cursor: pointer;
+}

@@ -1,0 +1,63 @@
+.RespoVideoAndHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.RespoVideoHeader {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.RespoVideoHeader > h1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.RespoVideoHeaderSpan1 {
+  display: flex;
+  justify-content: center;
+  font-family: Neue Montreal;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.RespoVideoHeaderSpan2 {
+  display: flex;
+  justify-content: center;
+  font-family: Neue Montreal;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.RespoVideoHeaderSpan3 {
+  display: flex;
+  justify-content: center;
+  font-family: Neue Montreal;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.RespoVideo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+/* Gradientframe2 */
+.RespoVideo {
+  display: flex;
+}

@@ -1,0 +1,34 @@
+.svgLogo {
+  display: flex;
+
+  width: 4rem;
+}
+.RespoBubbleSvg {
+  width: 30rem;
+}
+.RespoXSvg {
+  width: 25rem;
+}
+#RespoBubbleSvg1 {
+  width: 519px;
+  height: 519px;
+}
+.RespoBubbleSvg {
+  /* display: flex; */
+  width: 100%;
+  background-color: red;
+  /* justify-content: center; */
+}
+.RespoBubbleAll {
+  width: 70rem;
+}
+.RespoBubbleSvg1 {
+  color: red;
+}
+.svgLogoContainer {
+  /* don't delete */
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
