@@ -4,7 +4,7 @@ function VectorIcon2(props) {
   return (
     <svg
       width="122"
-      height="109"
+      height="87"
       viewBox="0 0 122 109"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

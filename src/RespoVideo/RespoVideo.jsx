@@ -8,7 +8,7 @@ function RespoVideo(props) {
       <div className="RespoVideoHeader">
         <h1>
           <span className="RespoVideoHeaderSpan1">
-            Grow your audience with Ai generated
+            Grow your audience with AI generated
           </span>
           <span className="RespoVideoHeaderSpan2">
             post - comments - retweets - replies

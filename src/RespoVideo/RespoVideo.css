@@ -20,21 +20,18 @@
 .RespoVideoHeaderSpan1 {
   display: flex;
   justify-content: center;
-  font-family: Neue Montreal;
+  font-family: "Archivo", sans-serif;
+  font-weight: 100;
   font-size: 30px;
-  font-weight: 500;
-  line-height: 48px;
-  letter-spacing: 0em;
-  text-align: center;
 }
 
 .RespoVideoHeaderSpan2 {
   display: flex;
   justify-content: center;
-  font-family: Neue Montreal;
+  /* font-family: "Montserrat", sans-serif; */
   font-size: 40px;
-  font-weight: 700;
-  line-height: 72px;
+  font-weight: 800;
+  line-height: 48px;
   letter-spacing: 0em;
   text-align: center;
 }
@@ -42,8 +39,8 @@
 .RespoVideoHeaderSpan3 {
   display: flex;
   justify-content: center;
-  font-family: Neue Montreal;
-  font-size: 25px;
+  font-family: "Archivo", sans-serif;
+  font-size: 30px;
   font-weight: 500;
   line-height: 48px;
   letter-spacing: 0em;

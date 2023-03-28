@@ -26,7 +26,7 @@ function RespoFooter(props) {
         </div>
         <div className="RespoFooterLogo">
           <a href="/">Resources</a>
-          <a href="/">About</a>
+
           <a href="/">Contact us</a>
         </div>
         <div className="RespoFooterLogo">

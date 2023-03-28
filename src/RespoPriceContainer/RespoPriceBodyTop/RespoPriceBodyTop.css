@@ -1,0 +1,42 @@
+.RespoPriceBodyTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+.RespoBodyTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+.RespoBodyTopHeader {
+  font-size: 50px;
+  font-weight: 750;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.RespoPriceBodyTopBody {
+  width: 82rem;
+
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.RespoPriceBodyTopBody > span {
+  display: flex;
+  justify-content: center;
+}

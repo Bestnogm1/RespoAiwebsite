@@ -28,15 +28,15 @@ function ReposUnderReferences(props) {
       <div className="ReposUnderReferencesX">
         <div className="ReposUnderReferencesXAndTag">
           <VectorIcon1 />
-          <h1>Connect with your social media audience</h1>
+          <p>Connect with your social media audience</p>
         </div>
         <div className="ReposUnderReferencesXAndTag">
           <VectorIcon2 />
-          <h1>Build your brand and reputation</h1>
+          <p>Build your brand and reputation</p>
         </div>
         <div className="ReposUnderReferencesXAndTag">
           <VectorIcon3 />
-          <h1>Attract new followers and expand your reach</h1>
+          <p>Attract new followers and expand your reach</p>
         </div>
       </div>
       <div className="ReposUnderReferencesTextImg">

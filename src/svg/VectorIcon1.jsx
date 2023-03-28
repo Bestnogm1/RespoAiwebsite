@@ -3,8 +3,8 @@ import React from "react";
 function VectorIcon1(props) {
   return (
     <svg
-      width="187"
-      height="157"
+      width="160"
+      height="87"
       viewBox="0 0 187 157"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

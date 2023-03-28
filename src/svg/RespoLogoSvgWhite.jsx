@@ -71,7 +71,7 @@ function RespoLogoSvgWhite(props) {
         </defs>
       </svg>
       <div>
-        <h1>RespoAI</h1>
+        <h1 style={{ color: "white" }}>RespoAI</h1>
       </div>
     </div>
   );

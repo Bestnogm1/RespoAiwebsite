@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
 .RespoNavBarMain {
   display: flex;
   height: 90px;
@@ -21,11 +22,14 @@
 }
 
 .RespoNavBarPages {
+  font-family: "Roboto", sans-serif;
+
   display: flex;
   justify-content: flex-end;
 }
 
 .RespoNavBarPages > ul {
+  font-family: "Roboto", sans-serif;
   display: flex;
   align-items: center;
   font-size: 1.5rem;

@@ -2,7 +2,9 @@
   display: flex;
   justify-content: center;
 
+  flex-wrap: wrap;
   margin-top: 5rem;
+  gap: 30px;
 }
 
 .RespoReview {
@@ -32,22 +34,36 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Neue Montreal;
+
   font-size: 22px;
   font-weight: 400;
   text-align: left;
 }
 
 .RespoReviewsText > p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   width: 16rem;
 }
 
 .RespoReviewsNameAndStar > h3 {
   margin: 0;
-  font-family: Neue Montreal;
+  font-family: "Roboto", sans-serif;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 38px;
   letter-spacing: 0em;
   text-align: left;
+}
+.RespoAllReviews {
+  display: flex;
+
+  justify-content: space-evenly;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.RespoReviewsWithH1 {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
 }

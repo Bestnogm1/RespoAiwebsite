@@ -3,6 +3,7 @@ import "./RespoNavBar.css";
 
 import chromeImgicon from "../img/chromeImgicon-removebg-preview.png";
 import { RespoLogoSvg } from "../svg/RespoLogoSvg";
+import { Link } from "react-router-dom";
 
 function RespoNavBar(props) {
   return (
@@ -13,7 +14,15 @@ function RespoNavBar(props) {
       <div className="RespoNavBarPages">
         <ul>
           <li>Features</li>
-          <li>Pricing</li>
+          <Link
+            to="price"
+            style={{
+              color: "black",
+              "text-decoration": "none",
+            }}
+          >
+            <li>Pricing</li>
+          </Link>
 
           <div>
             <img src={chromeImgicon} alt="chromeImgicon" />
