@@ -6,7 +6,7 @@ import RedditTab from "./RedditTab/RedditTab";
 import LinkedinTap from "./LinkedinTap/LinkedinTap";
 function TabsComp(props) {
   return (
-    <Tabs variant="soft-rounded" colorScheme="green" className="TabsComp">
+    <Tabs isManual variant="enclosed" colorScheme="green" className="TabsComp">
       <TabList className="TabsList">
         <Tab className="TabsListButtons">Twitter</Tab>
         <Tab className="TabsListButtons">Reddit</Tab>
