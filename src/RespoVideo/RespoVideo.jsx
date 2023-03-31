@@ -2,6 +2,8 @@ import React from "react";
 import "./RespoVideo.css";
 import TwitterBox from "../svg/TwitterBox";
 import RespoReddit from "../svg/RespoReddit";
+import RedditBox from "../svg/RedditBox";
+import RespoLinkedin from "../svg/RespoLinkedin";
 function RespoVideo(props) {
   return (
     <div className="RespoVideoAndHeader">
@@ -20,9 +22,10 @@ function RespoVideo(props) {
         </h1>
       </div>
       <div className="RespoVideo">
-        <div className="RespoVideoInner">
+        <div className="RespoVideoInner  svg-loop">
           <TwitterBox />
-          {/* <RespoReddit /> */}
+          <RespoReddit />
+          <RespoLinkedin />
         </div>
       </div>
     </div>

@@ -17,18 +17,3 @@
 #AgreeButton:hover {
   fill: green;
 }
-#Bird1,
-#Bird2,
-#Bird3,
-.bird4 {
-  fill: #1da1f2;
-  animation: fly 5s linear infinite;
-}
-@keyframes fly {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}

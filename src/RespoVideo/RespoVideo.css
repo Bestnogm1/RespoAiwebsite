@@ -51,10 +51,71 @@
   display: flex;
   width: 100%;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   padding-top: 5rem;
 }
-/* Gradientframe2 */
+
 .RespoVideo {
   display: flex;
+
+  justify-content: center;
+}
+
+.RespoVideoInner {
+  width: 80rem; /* Set the width of your SVG images */
+  height: 32rem;
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+}
+
+.svg-loop svg {
+  position: absolute;
+
+  left: 150px;
+  opacity: 0;
+}
+
+.svg-loop svg:nth-child(1) {
+  top: 0;
+  left: 180px;
+  animation: svg-loop 9s infinite;
+  animation-delay: 0s;
+}
+
+.svg-loop svg:nth-child(2) {
+  top: 0;
+  left: 180px;
+
+  animation: svg-loop 9s infinite;
+  animation-delay: 3s;
+}
+
+.svg-loop svg:nth-child(3) {
+  top: 0;
+  left: 260px;
+
+  animation: svg-loop 9s infinite;
+
+  animation-delay: 6s;
+}
+
+@keyframes svg-loop {
+  0% {
+    opacity: 0;
+  }
+  11% {
+    opacity: 1;
+  }
+  41% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
