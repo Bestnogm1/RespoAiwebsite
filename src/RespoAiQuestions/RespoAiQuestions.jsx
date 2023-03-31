@@ -34,9 +34,10 @@ function RespoAiQuestions(props) {
               className="RespoAiAllQuestionsDropDescription"
               style={{ display: toggle1 ? "none" : "block" }}
             >
-              If you encounter any issues or have suggestions for improvements,
-              please visit our support page or contact us directly via the email
-              provided in the extension's description in the Chrome Web Store.
+              Yes! Our AI Chrome extension is designed to be versatile and
+              compatible with various platforms and websites including Twitter,
+              LinkedIn, and Reddit. Just click on the extension's icon in your
+              browser's toolbar and let the AI assistant guide you.
             </div>
           </div>
           <div className="RespoAiAllQuestionsDropIcon">
@@ -78,12 +79,9 @@ function RespoAiQuestions(props) {
               className="RespoAiAllQuestionsDropDescription"
               style={{ display: toggle3 ? "none" : "block" }}
             >
-              We take data privacy and security very seriously. The AI Chrome
-              extension processes your text locally on your device without
-              transmitting any data to external servers. We also do not store
-              any of your personal information or conversation history. Please
-              refer to our privacy policy for more details on how we protect
-              your data.
+              If you encounter any issues or have suggestions for improvements,
+              please visit our support page or contact us directly via the email
+              provided in the extension's description in the Chrome Web Store
             </div>
           </div>
           <div className="RespoAiAllQuestionsDropIcon">
