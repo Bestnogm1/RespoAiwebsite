@@ -100,7 +100,7 @@ function RespoAiQuestions(props) {
               className="RespoAiAllQuestionsDropDescription"
               style={{ display: toggle4 ? "none" : "block" }}
             >
-              the best
+              In the near feature we do plan to implement teams responses for
             </div>
           </div>
           {/* <div className="RespoAiAllQuestionsDropIcon">
