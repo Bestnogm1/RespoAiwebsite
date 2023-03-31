@@ -92,13 +92,17 @@ function RespoAiQuestions(props) {
               >
                 <RespoAiPlusButton />
               </button>
-              Can I make an account for my team?
+              Can I reply to tweets and replies with images or videos?
             </div>
             <div
               className="RespoAiAllQuestionsDropDescription"
               style={{ display: toggle4 ? "none" : "block" }}
             >
-              In the near feature we do plan to implement teams responses for
+              Currently, our Chrome extension allows users to reply to text
+              tweets and replies only. We regret to inform that at this time,
+              users are unable to reply to images. However, we are actively
+              working on developing this feature and plan to enable users to
+              reply to both videos and images in the near future.
             </div>
           </div>
           {/* <div className="RespoAiAllQuestionsDropIcon">
