@@ -34,12 +34,9 @@ function RespoAiQuestions(props) {
               className="RespoAiAllQuestionsDropDescription"
               style={{ display: toggle1 ? "none" : "block" }}
             >
-              Yes! Our AI Chrome extension is designed to be versatile and
-              compatible with various platforms and websites. Whether you're
-              composing an email, engaging in online discussions, or writing
-              social media comments, the extension can assist you in crafting
-              thoughtful and effective responses. Just click on the extension's
-              icon in your browser's toolbar and let the AI assistant guide you.
+              If you encounter any issues or have suggestions for improvements,
+              please visit our support page or contact us directly via the email
+              provided in the extension's description in the Chrome Web Store.
             </div>
           </div>
           <div className="RespoAiAllQuestionsDropIcon">
@@ -81,12 +78,12 @@ function RespoAiQuestions(props) {
               className="RespoAiAllQuestionsDropDescription"
               style={{ display: toggle3 ? "none" : "block" }}
             >
-              Your feedback is essential for us to improve the AI Chrome
-              extension continually. If you encounter any issues or have
-              suggestions for improvements, please visit our support page or
-              contact us directly via the email provided in the extension's
-              description in the Chrome Web Store. We appreciate your input and
-              will work diligently to address your concerns.
+              We take data privacy and security very seriously. The AI Chrome
+              extension processes your text locally on your device without
+              transmitting any data to external servers. We also do not store
+              any of your personal information or conversation history. Please
+              refer to our privacy policy for more details on how we protect
+              your data.
             </div>
           </div>
           <div className="RespoAiAllQuestionsDropIcon">

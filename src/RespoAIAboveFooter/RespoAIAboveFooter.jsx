@@ -12,8 +12,8 @@ function RespoAIAboveFooter(props) {
         <RespoLogoSvg />
       </div>
       <div className="RespoAIAboveFooterText">
-        Lorem ipsum dolor sit amet consectetur. Faucibus non eget aenean quis
-        consequat id tell
+        Say goodbye to generic messages and hello to more meaningful
+        interactions.
       </div>
       <div className="RespoAIAboveFooterTextButtonContainer">
         <div className="RespoAIAboveFooterButton">
