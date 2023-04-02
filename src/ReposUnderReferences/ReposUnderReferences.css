@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 5em;
 }
 
 .ReposUnderReferencesText {
@@ -59,6 +60,9 @@
 .ReposUnderReferencesTextImg {
   display: flex;
   align-items: center;
+}
+.ReposUnderReferencesHeaderText {
+  width: 50%;
 }
 .ReposUnderReferencesHeaderText > header {
   font-family: "Roboto", sans-serif;

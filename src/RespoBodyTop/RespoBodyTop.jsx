@@ -1,9 +1,8 @@
 import React from "react";
 import "./RespoBodyTop.css";
-import twitterLook from "../img/testing.png";
+
 import chromeImgicon from "../img/chromeImgicon-removebg-preview.png";
-import TwitterBox from "../svg/TwitterBox";
-import TwitterTap from "../TabsComp/TwitterTap/TwitterTap";
+
 import TabsComp from "../TabsComp/TabsComp";
 function RespoBodyTop(props) {
   return (

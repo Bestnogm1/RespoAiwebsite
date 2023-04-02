@@ -3,7 +3,8 @@ import React from "react";
 function TwitterBottom(props) {
   return (
     <svg
-      width="631"
+      width="100%"
+      max-width="900px"
       height="44"
       viewBox="0 0 631 44"
       fill="none"

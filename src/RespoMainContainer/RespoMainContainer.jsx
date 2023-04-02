@@ -7,10 +7,12 @@ import RespoBanner from "../RespoBanner/RespoBanner";
 import RespoReviews from "../RespoReviews/RespoReviews";
 import RespoAiQuestions from "../RespoAiQuestions/RespoAiQuestions";
 import RespoAIAboveFooter from "../RespoAIAboveFooter/RespoAIAboveFooter";
-
+import "./RespoMainContainer.css";
+import RespoNavBar from "../RespoNavBar/RespoNavBar";
 function RespoMainContainer(props) {
   return (
-    <div>
+    <div className="RespoMainContainer">
+      <RespoNavBar />
       <RespoBodyTop />
       <RespoVideo />
       <RespoRefrences />

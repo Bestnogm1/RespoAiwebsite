@@ -3,7 +3,9 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  padding-top: 2rem;
+
+  width: 90%;
+  padding-top: 2em;
 }
 
 .RespoBodyTopHeader {
@@ -15,8 +17,6 @@
 }
 
 .RespoBodyTopBody {
-  width: 82rem;
-
   font-weight: 300;
   display: flex;
   justify-content: center;
@@ -73,18 +73,18 @@
 }
 
 .RespoBodyTopDescriptionImg {
+  width: 100%;
   display: flex;
-  flex-wrap: nowrap;
-  /* border: solid black; */
-  width: 90rem;
-  align-items: center;
   padding-top: 5rem;
-  /* justify-content: space-evenly; */
+  justify-content: space-between;
 }
+
 .RespoBodyTopDescription > h1 {
   font-family: "Kanit", sans-serif;
   font-size: 20px;
-  font-size: 24px;
+  /* border: solid; */
+
+  max-width: 30rem;
   font-weight: 100;
   line-height: 29px;
   letter-spacing: 0em;
@@ -102,7 +102,7 @@
   flex-direction: column;
   justify-content: flex-start;
   height: 20rem;
-  width: 50%;
+  /* width: 50%; */
   /* border: solid black; */
 }
 
@@ -142,6 +142,6 @@
   height: 20rem;
   /* border: solid black; */
   align-items: center;
-  width: 50%;
+  /* width: 50%; */
   height: 30rem;
 }
