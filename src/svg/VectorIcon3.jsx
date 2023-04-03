@@ -1,11 +1,11 @@
 import React from "react";
 
-function VectorIcon3(props) {
+function VectorIcon3({ size }) {
   return (
     <svg
-      width="174"
+      width={size}
       height="87"
-      viewBox="0 0 174 178"
+      viewBox="0 0 100 178"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

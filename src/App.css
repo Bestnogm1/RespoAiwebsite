@@ -18,8 +18,9 @@ body {
 }
 
 .AppContainer {
-  width: 95rem;
+  /* width: 95rem; */
   display: flex;
+
   justify-content: center;
-  max-width: 100%;
+  /* max-width: 100%; */
 }

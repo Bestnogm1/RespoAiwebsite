@@ -1,7 +1,7 @@
 .RespoMainContainer {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 70rem;
   align-items: center;
   /* border: solid; */
 }

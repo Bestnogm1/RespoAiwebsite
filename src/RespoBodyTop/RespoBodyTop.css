@@ -76,12 +76,13 @@
   width: 100%;
   display: flex;
   padding-top: 5rem;
+
   justify-content: space-between;
 }
 
 .RespoBodyTopDescription > h1 {
   font-family: "Kanit", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   /* border: solid; */
 
   max-width: 30rem;
@@ -109,7 +110,7 @@
 .RespoBodyTopDescriptionHeader {
   font-family: "Open Sans", sans-serif;
 
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0em;

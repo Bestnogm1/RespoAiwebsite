@@ -8,9 +8,15 @@ function TabsComp(props) {
   return (
     <Tabs isManual variant="enclosed" colorScheme="green" className="TabsComp">
       <TabList className="TabsList">
-        <Tab className="TabsListButtons">Twitter</Tab>
-        <Tab className="TabsListButtons">Reddit</Tab>
-        <Tab className="TabsListButtons">Linkedin</Tab>
+        <Tab className="button-48">
+          <span>Twitter</span>
+        </Tab>
+        <Tab className="button-48">
+          <span>Reddit</span>
+        </Tab>
+        <Tab className="button-48">
+          <span>Linkedin</span>
+        </Tab>
       </TabList>
       <TabPanels className="TabsListTabPanels">
         <TabPanel>

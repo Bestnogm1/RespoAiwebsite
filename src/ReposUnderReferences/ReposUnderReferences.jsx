@@ -7,6 +7,7 @@ import VectorIcon2 from "../svg/VectorIcon2";
 import VectorIcon3 from "../svg/VectorIcon3";
 import RespoReddit from "../svg/RespoReddit";
 import chromeImgicon from "../img/chromeImgicon-removebg-preview.png";
+import RespoRedditNoImg from "../svg/RespoRedditNoImg";
 
 function ReposUnderReferences(props) {
   return (
@@ -27,38 +28,40 @@ function ReposUnderReferences(props) {
       </div>
       <div className="ReposUnderReferencesX">
         <div className="ReposUnderReferencesXAndTag">
-          <VectorIcon1 />
+          <VectorIcon1 size={"17rem"} />
           <p>Connect with your social media audience</p>
         </div>
         <div className="ReposUnderReferencesXAndTag">
-          <VectorIcon2 />
+          <VectorIcon2 size={"17rem"} />
           <p>Build your brand and reputation</p>
         </div>
         <div className="ReposUnderReferencesXAndTag">
-          <VectorIcon3 />
+          <VectorIcon3 size={"17rem"} />
           <p>Attract new followers and expand your reach</p>
         </div>
       </div>
       <div className="ReposUnderReferencesTextImg">
         <div className="ReposUnderReferencesHeaderText">
           <header>Drive motivation with the right messaging</header>
-          <h1>
-            By using our tool, you can quickly and easily generate responses
-            that capture the attention of both your existing audience and
-            potential new followers. This not only helps to build your brand and
-            reputation as an authority in your niche but also drives growth and
-            success on social media.
-          </h1>
+          <div className="ReposUnderReferencesHeaderText2">
+            <h1>
+              By using our tool, you can quickly and easily generate responses
+              that capture the attention of both your existing audience and
+              potential new followers. This not only helps to build your brand
+              and reputation as an authority in your niche but also drives
+              growth and success on social media.
+            </h1>
 
-          <div className="ReposUnderReferencesButtonContainer">
-            <div className="ReposUnderReferencesButton">
-              <img src={chromeImgicon} alt="chromeImgicon" />
-              Add to Browser
+            <div className="ReposUnderReferencesButtonContainer">
+              <div className="ReposUnderReferencesButton">
+                <img src={chromeImgicon} alt="chromeImgicon" />
+                Add to Browser
+              </div>
             </div>
           </div>
         </div>
-        <div>
-          <RespoReddit />
+        <div className="RespoRedditNoImgDiv">
+          <RespoRedditNoImg width={"95%"} />
         </div>
       </div>
     </div>
