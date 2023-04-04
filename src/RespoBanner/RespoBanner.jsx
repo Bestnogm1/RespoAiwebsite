@@ -9,10 +9,12 @@ function RespoBanner(props) {
         <h1 className="RespoBannerTextParagraph">
           Start creating meaning messages to get in touch with your community
         </h1>
-        <div className="RespoBannerChromeImg">
-          <img src={chromeImgicon} alt="chromeImgicon" />
-          Add to Browser
-        </div>
+        <a href="https://chrome.google.com/webstore/detail/respoai/bedkffdgfejokiohjhkehankmamachma">
+          <div className="RespoBannerChromeImg">
+            <img src={chromeImgicon} alt="chromeImgicon" />
+            Add to Browser
+          </div>
+        </a>
       </div>
     </div>
   );

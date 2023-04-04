@@ -23,7 +23,7 @@ function RespoNavBar(props) {
           >
             <li>Pricing</li>
           </Link>
-
+          {/* <a href="https://chrome.google.com/webstore/detail/respoai/bedkffdgfejokiohjhkehankmamachma"> */}
           <div>
             <img src={chromeImgicon} alt="chromeImgicon" />
             Try For Free

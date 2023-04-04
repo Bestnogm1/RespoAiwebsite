@@ -12,10 +12,12 @@ function RespoFooter(props) {
       <div className="RespoFooterContainer">
         <div className="RespoFooterLogo">
           <RespoLogoSvgWhite />
-          <div className="RespoFooterChromeImg">
-            <img src={chromeImgicon} alt="chromeImgicon" />
-            Add to Browser
-          </div>
+          <a href="https://chrome.google.com/webstore/detail/respoai/bedkffdgfejokiohjhkehankmamachma">
+            <div className="RespoFooterChromeImg">
+              <img src={chromeImgicon} alt="chromeImgicon" />
+              Add to Browser
+            </div>
+          </a>
         </div>
         <div className="RespoFooterLogo">
           <a href="/">Follow Us</a>

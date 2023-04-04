@@ -24,3 +24,7 @@ body {
   justify-content: center;
   /* max-width: 100%; */
 }
+a {
+  color: #0060b6;
+  text-decoration: none;
+}

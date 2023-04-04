@@ -13,12 +13,14 @@ function RespoBodyTop(props) {
           Welcome to Respo AI - the tool that empowers you to hack your
           <span>way to grow on social media with the click of a button.</span>
         </h1>
-        <div className="RespoBannerChromeContainer">
-          <div className="RespoBannerChromeImg">
-            <img src={chromeImgicon} alt="chromeImgicon" />
-            Add to Browser
+        <a href="https://chrome.google.com/webstore/detail/respoai/bedkffdgfejokiohjhkehankmamachma">
+          <div className="RespoBannerChromeContainer">
+            <div className="RespoBannerChromeImg">
+              <img src={chromeImgicon} alt="chromeImgicon" />
+              Add to Browser
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       <div className="RespoBodyTopDescriptionImg">
         <div className="RespoBodyTopDescription">
@@ -32,10 +34,12 @@ function RespoBodyTop(props) {
             efficient, making it the ultimate growth-hacking tool for social
             media.
           </p>
-          <div className="RespoBannerChromeImg">
-            <img src={chromeImgicon} alt="chromeImgicon" />
-            Add to Browser
-          </div>
+          <a href="https://chrome.google.com/webstore/detail/respoai/bedkffdgfejokiohjhkehankmamachma">
+            <div className="RespoBannerChromeImg">
+              <img src={chromeImgicon} alt="chromeImgicon" />
+              Add to Browser
+            </div>
+          </a>
         </div>
         <div className="RespoBodyTopImg">
           <TabsComp />

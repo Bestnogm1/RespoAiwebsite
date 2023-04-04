@@ -15,12 +15,14 @@ function RespoAIAboveFooter(props) {
         Say goodbye to generic messages and hello to more meaningful
         interactions.
       </div>
-      <div className="RespoAIAboveFooterTextButtonContainer">
-        <div className="RespoAIAboveFooterButton">
-          <img src={chromeImgicon} alt="chromeImgicon" />
-          Add to Browser
+      <a href="https://chrome.google.com/webstore/detail/respoai/bedkffdgfejokiohjhkehankmamachma">
+        <div className="RespoAIAboveFooterTextButtonContainer">
+          <div className="RespoAIAboveFooterButton">
+            <img src={chromeImgicon} alt="chromeImgicon" />
+            Add to Browser
+          </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 }

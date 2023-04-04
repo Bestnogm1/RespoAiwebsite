@@ -52,12 +52,14 @@ function ReposUnderReferences(props) {
               growth and success on social media.
             </h1>
 
-            <div className="ReposUnderReferencesButtonContainer">
-              <div className="ReposUnderReferencesButton">
-                <img src={chromeImgicon} alt="chromeImgicon" />
-                Add to Browser
+            <a href="https://chrome.google.com/webstore/detail/respoai/bedkffdgfejokiohjhkehankmamachma">
+              <div className="ReposUnderReferencesButtonContainer">
+                <div className="ReposUnderReferencesButton">
+                  <img src={chromeImgicon} alt="chromeImgicon" />
+                  Add to Browser
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div className="RespoRedditNoImgDiv">
