@@ -1,53 +1,172 @@
-.RespoBodyTop {
+.RespoPriceTags {
+  display: flex;
+  margin-top: 5rem;
+  flex-direction: column;
+}
+.RespoPriceCategoryMain {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
-
-  width: 90%;
-  padding-top: 2em;
+}
+.RespoTags {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.RespoBodyTopHeader {
-  font-size: 50px;
-  font-weight: 750;
-  line-height: 72px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
-.RespoBodyTopBody {
-  font-weight: 300;
+.RespoPriceCategoryContainer {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  /* align-items: baseline; */
+  gap: 3rem;
+}
+.RespoPriceCategory {
+  min-height: 35rem;
+  border: solid rgb(0, 0, 0);
 
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 38px;
-  letter-spacing: 0em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/*   font-style: italic; */
+.RespoPriceCategoryCategoryButton {
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  gap: 2rem;
+}
+.RespoPriceCategoryCheckSvg {
+  display: flex;
+  align-items: center;
+
+  height: 15rem;
+  /* justify-content: space-around; */
+  flex-direction: column;
+}
+.RespoPriceCategoryPrice {
+  display: flex;
+
+  padding-top: 2rem;
+  width: 100%;
+  height: 9rem;
+  justify-content: center;
+  align-items: center;
+}
+.RespoPriceCategoryPriceMoney {
+  /* border: solid black; */
+  display: flex;
+  align-items: center;
+}
+.moneySign {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2.6rem;
+  font-family: "Roboto", sans-serif;
+}
+.moneySign > span {
+  font-size: 1rem;
+}
+.pricetag {
+  font-family: "Roboto", sans-serif;
+
+  font-size: 4rem;
+}
+
+/* CSS */
+
+/* CSS */
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
   text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
 }
 
-.RespoBodyTopBody > span {
-  display: flex;
-  justify-content: center;
-}
-.RespoBodyTopBody > .RespoBodyTopBody {
-  display: flex;
-  justify-content: center;
+.button-9:disabled {
+  cursor: default;
 }
 
-.RespoBodyTopBodyButton {
-  display: flex;
-  justify-content: center;
-  font-family: "Kanit", sans-serif;
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(50, 151, 211, 0.3) 0 0 0 4px;
 }
-
-.RespoBodyTopBodyButton {
+.checkadnCommnets {
+  display: flex;
+  gap: 0.5rem;
   align-items: center;
+}
+.pricetagMonth {
+  /* border: solid black; */
+  padding-top: 1.7rem;
+  padding-left: 0.2rem;
+}
+.BestValueBannerContanier {
+  display: flex;
+  width: 100%;
+  background-color: #405cf5;
 
+  color: #fff;
+  /* border-radius: 0.5rem; */
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  justify-content: center;
+  align-items: center;
+}
+.BestValueBanner {
+  /* position: relative;
+  left: 9.1rem;
+  top: -1.2rem;
+  transform: rotate(50deg); */
+  /* background-color: red; */
+  /* height: 2.5rem; */
+}
+.RespoPriceCategoryCategory {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+  width: 20rem;
+  font-style: italic;
+}
+.RespoPriceCategoryCheck {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.RespoBannerChromeImg {
+  align-items: center;
   border: 1px solid #27b1ff;
+  background-color: white;
   display: flex;
   gap: 20px;
   flex-direction: row;
@@ -61,88 +180,62 @@
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-
-.RespoBodyTopBodyButton > img {
+.RespoBannerChromeImg > img {
   width: 1.5rem;
   flex-direction: column;
 }
-
-.RespoBodyTopBodyButton:hover {
+.RespoBannerChromeImg:hover {
   background-color: #27b0fff2;
   cursor: pointer;
 }
-
-.RespoBodyTopDescriptionImg {
-  width: 100%;
+.RespoBodyTopBody {
   display: flex;
-  padding-top: 5rem;
-
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 4rem;
 }
-
-.RespoBodyTopDescription > h1 {
-  font-family: "Kanit", sans-serif;
-  font-size: 18px;
-  /* border: solid; */
-
-  max-width: 30rem;
-  font-weight: 100;
-  line-height: 29px;
-  letter-spacing: 0em;
-  text-align: left;
+.RespoBodyTopDescriptionImg {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  padding-top: 6rem;
+  align-items: center;
 }
-.RespoBodyTopBodyButtonContainer {
+.RespoBannerChromeContainer {
+  display: flex;
+
+  justify-content: center;
+}
+.RespoBodyTopBody > h1 {
+  display: flex;
+  flex-direction: column;
+}
+.RespoBodyTopBody > h1 > span {
   display: flex;
   justify-content: center;
-  padding-top: 4rem;
 }
-
+.RespoBodyTopDescriptionHeader {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+.RespoBodyTopDescription > p {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
 .RespoBodyTopDescription {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  justify-content: flex-start;
-  height: 20rem;
-  /* width: 50%; */
-  /* border: solid black; */
+  gap: 1.4rem;
+  width: 50%;
+  max-width: 32rem;
 }
+/* @media (max-width: 1200px) {
+  .RespoBodyTopDescriptionImg {
+    display: flex;
+    border: solid;
 
-.RespoBodyTopDescriptionHeader {
-  font-family: "Open Sans", sans-serif;
-
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 48px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
-.RespoBodyTopDescriptionButton {
-  padding-top: 2rem;
-  width: 100%;
-}
-.RespoBodyTopDescriptionButton > button {
-  width: 13rem;
-  height: 3rem;
-  border-radius: 30px;
-  background: linear-gradient(#000000, #000000) padding-box,
-    linear-gradient(60deg, #27b1ff, #27b1ff9c, #9d75f2, #00b994) border-box;
-  color: #ffffff;
-  border: 5px solid transparent;
-  border-radius: 40px;
-  display: inline-block;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 29px;
-}
-
-.RespoBodyTopImg {
-  display: flex;
-  height: 20rem;
-  /* border: solid black; */
-  align-items: center;
-  /* width: 50%; */
-  height: 30rem;
-}
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+  }
+} */

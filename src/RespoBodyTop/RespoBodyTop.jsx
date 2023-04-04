@@ -9,12 +9,14 @@ function RespoBodyTop(props) {
     <div className="RespoBodyTop">
       <div className="RespoBodyTopHeader">Engagement made easy</div>
       <div className="RespoBodyTopBody">
-        Welcome to Respo AI - the tool that empowers you to hack your
-        <span>way to grow on social media with the click of a button.</span>
-        <div className="RespoBodyTopBodyButtonContainer">
-          <div className="RespoBodyTopBodyButton">
+        <h1>
+          Welcome to Respo AI - the tool that empowers you to hack your
+          <span>way to grow on social media with the click of a button.</span>
+        </h1>
+        <div className="RespoBannerChromeContainer">
+          <div className="RespoBannerChromeImg">
             <img src={chromeImgicon} alt="chromeImgicon" />
-            Try For Free
+            Add to Browser
           </div>
         </div>
       </div>
@@ -23,15 +25,16 @@ function RespoBodyTop(props) {
           <header className="RespoBodyTopDescriptionHeader">
             Innovate your interaction
           </header>
-          <h1>
+          <p>
             With Respo AI, you can say goodbye to generic messages and hello to
             more meaningful interactions. Our platform uses AI language tools to
             help you produce attention-grabbing messages that are intriguing and
             efficient, making it the ultimate growth-hacking tool for social
             media.
-          </h1>
-          <div className="RespoBodyTopDescriptionButton">
-            <button>Learn More</button>
+          </p>
+          <div className="RespoBannerChromeImg">
+            <img src={chromeImgicon} alt="chromeImgicon" />
+            Add to Browser
           </div>
         </div>
         <div className="RespoBodyTopImg">

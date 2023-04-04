@@ -15,7 +15,7 @@ function RespoNavBar(props) {
         <ul>
           <li>Features</li>
           <Link
-            to="price"
+            to="/price"
             style={{
               color: "black",
               "text-decoration": "none",

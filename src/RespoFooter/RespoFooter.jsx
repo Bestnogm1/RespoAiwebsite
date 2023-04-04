@@ -4,6 +4,7 @@ import { RespoLogoSvg } from "../svg/RespoLogoSvg";
 import chromeImgicon from "../img/chromeImgicon-removebg-preview.png";
 import FootericonSvg from "./FootericonSvg";
 import RespoLogoSvgWhite from "../svg/RespoLogoSvgWhite";
+import { Link } from "react-router-dom";
 
 function RespoFooter(props) {
   return (
@@ -30,7 +31,7 @@ function RespoFooter(props) {
           <a href="/">Contact us</a>
         </div>
         <div className="RespoFooterLogo">
-          <a href="/">Pricing</a>
+          <Link to="/pricing">Pricing</Link>
         </div>
       </div>
     </div>

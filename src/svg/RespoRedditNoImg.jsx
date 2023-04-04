@@ -3,8 +3,8 @@ import React from "react";
 function RespoRedditNoImg({ width }) {
   return (
     <svg
-      width={width}
-      height="426"
+      width="503"
+      height="332"
       viewBox="0 0 856 426"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

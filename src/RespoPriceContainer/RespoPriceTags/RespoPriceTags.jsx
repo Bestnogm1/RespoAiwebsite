@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import "./RespoPriceTags.css";
-import chromeImgicon from "../../img/chromeImgicon-removebg-preview.png";
 import CheckSvg from "./CheckSvg";
 import { respoPriceData } from "./RespoPricedata";
-import RespoAIAboveFooter from "../../RespoAIAboveFooter/RespoAIAboveFooter";
+
 function RespoPriceTags(props) {
   const [priceDatas] = useState(respoPriceData);
   return (
@@ -13,7 +12,7 @@ function RespoPriceTags(props) {
       <div className="RespoPriceCategoryContainer">
         {priceDatas.map((price) => (
           <>
-            <div>
+            <div className="RespoPriceCategoryItems">
               <div className="RespoPriceCategory RespoFreePrice">
                 {price.tear === "Basic" ? (
                   <>
@@ -29,7 +28,7 @@ function RespoPriceTags(props) {
                     <h1>{price.tear}</h1>
                   </div>
                   <div className="RespoPriceCategoryCategory">
-                    <h3>{price.description}</h3>
+                    <p>{price.description}</p>
                   </div>
                   <div className="RespoPriceCategoryPrice">
                     <div className="RespoPriceCategoryPriceMoney">
@@ -41,13 +40,16 @@ function RespoPriceTags(props) {
                     <div className="pricetagMonth"> /month</div>
                   </div>
                   <div className="RespoPriceCategoryCategoryButton">
-                    <a href={price.link}>
+                    <a
+                      href={price.link}
+                      onClick={() => window.open(`${price.link}`, "_parent")}
+                    >
                       <button class="button-9" role="button">
                         {price.buttonTag}
                       </button>
                     </a>
                     <div className="RespoPriceCategoryCheckSvg">
-                      <div>
+                      <div className="RespoPriceCategoryCheck">
                         {price.plans.map((plan) => (
                           <>
                             <p className="checkadnCommnets">

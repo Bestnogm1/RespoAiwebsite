@@ -4,6 +4,9 @@ import React from "react";
 import TwitterTap from "./TwitterTap/TwitterTap";
 import RedditTab from "./RedditTab/RedditTab";
 import LinkedinTap from "./LinkedinTap/LinkedinTap";
+import RespoAiTwitterNoBird from "../svg/RespoAiTwitterNoBird";
+import RespoRedditNoImg from "../svg/RespoRedditNoImg";
+import RespoLinkedNoLogo from "../svg/RespoLinkedNoLogo";
 function TabsComp(props) {
   return (
     <Tabs isManual variant="enclosed" colorScheme="green" className="TabsComp">
@@ -20,13 +23,15 @@ function TabsComp(props) {
       </TabList>
       <TabPanels className="TabsListTabPanels">
         <TabPanel>
-          <TwitterTap />
+          {/* <TwitterTap /> */}
+          <RespoAiTwitterNoBird />
         </TabPanel>
         <TabPanel>
-          <RedditTab />
+          {/* <RedditTab /> */} <RespoRedditNoImg width={"95%"} />
         </TabPanel>
         <TabPanel>
-          <LinkedinTap />
+          {/* <LinkedinTap /> */}
+          <RespoLinkedNoLogo />
         </TabPanel>
       </TabPanels>
     </Tabs>
